@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/sudeep-paudel-4853ab28b/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./files/SudeepResume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The most valuable of all talents is that of never using two words when one will do."</p>
+            <h1>Sudeep Paudel (27)</h2>
+            <h2>Computer Science Graduate</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2">  I am Sudeep, a seasoned graduate with coding experience dating 2017. With a robust background in software engineering and bio-informatics. I am actively learning to polish my learnings in computer science along with gaining new experience in bio-informatics. I am looking forward to harness the knowledge in achieving new solutions to solve modern obstacles. 
+              
+            </p>
+            <p class=""> 
+             My collaborative approach fosters effective teamwork, and my commitment to ongoing professional development ensures that I remain at the forefront of industry trends. 
+
+            </p>
+            <p class=""> 
+            From programming to actively engaging in community, I want to utilize my skills for innovation and discovery in software engineering and bio-informatics.
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+              <div class="">
+                <h4>Graduate Assistance at LSUS</h4>
+                <p>November 2023 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Developing eLearning Tool: Developing an eLearning platform for LSUHS</li>
+                  <li>Research Paper: Write Papers</li>
+                  <li>Presentation: Posters and Conference presentation assistance</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Job Ready Program</h4>
+                <p>February 2021 - November 2021 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Understanding Workplace Culture: Acquired knowledge and experience of culture and practice within workplace</li>
+                  <li>Communication: Learnt how to write emails, communicate efficiently </li>
+                  
+                </ul>
+              </div>
+              <div class="">
+                <h4>Team Supervisor at Woolworths</h4>
+                <p>August 2019 - March 2023 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Customer Support: Assist customer with technical assistance, problem solving skills to create desired results for clients</li>
+                  <li>Supervision: Assist leaders with everyday reporting and audits</li>
+                  <li>Provided feedback on team performance to leadership</li>
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>Masters in Computer Science, Department of Computer Science, Shreveport</h4>
+                <p>August 2023 - December 2024 </p>
+                <h4>Bachelors in Information Technology, Southern Cross University, Sydney</h4>
+                <p>July 2017 - February 2020 </p>
+                <h4>Diploma in Businesss, Southern Cross University, Sydney</h4>
+                <p>July 2016 - July 2017 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have a great eye for details and I like to utilize my problem solving skills</li>
+                <li>Throughout my experience in team environment and GA, I have acquired talent for investigation and research different processes for the benefits of organization </li>
+                <li>I am capable of research and I can say general idea of how a problem can be approached is my strong point</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have experience in Javascript, CSS, HTMl for front end development</li>
+                  <li>I have experience in Java, PHP, MySQL, C++ for logic development</li>
+                  <li>I have strong knowledge in python libraries for Data Visualization and Machine Learning</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love cricket, swimming and fitness activities in my free time</li>
+                  <li>I like to travel to different places in search of lakes and mountains</li>
+                </ul>
+            </div>
+
+            <!--REFERENCE SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY REFERENCES</h3>
+              <h4>Dr Qingsong “Roger” Zhao Assistant Professor</h4>
+              <h5>Department of Computer Science <br>Louisiana State University</h5>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>qingsong.zhao@lsus.edu</li>
+              </ul>
+              <h4>Dr Urska Cvek  Professor</h4>
+              <h5>Department of Computer Science <br>Louisiana State University</h5>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>urska.cvek@lsus.edu </li>
+              </ul>
+            </div>            
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Sudeep Paudel</p>
+              <p>Adress: 3820 Fairfield Avenue, Shreveport, Louisiana</p>
+              <p>Phone number: +4693797187</p>
+              <p>E-mail: sudeeppoudel1661@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2024 - Sudeep Paudel</p>
+          
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
