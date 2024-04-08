@@ -8,7 +8,7 @@
 % Packages
 \usepackage[utf8]{inputenc} % For input encoding
 \usepackage{geometry} % For page margins
-\geometry{a4paper, margin=1in} % Set paper size and margins
+\geometry{a4paper, margin=0.75in} % Set smaller paper size and margins
 \usepackage{titlesec} % For section title formatting
 \usepackage{enumitem} % For itemized list formatting
 \usepackage{hyperref} % For hyperlinks
@@ -16,7 +16,7 @@
 % Formatting
 \setlist{noitemsep} % Removes item separation
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
-\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\titlespacing*{\section}{0pt}{\baselineskip}{0.5\baselineskip} % Section title spacing
 
 % Begin document
 \begin{document}
@@ -26,79 +26,64 @@
 
 % Header
 \begin{center}
-\textbf{\Large Sudeep Paudel }\\[3pt] % Name
+\textbf{\Large Sudeep Paudel}\\[3pt] % Name
 \textbf{Curriculum Vitae}\\[1pt] % CV
 Shreveport, Louisiana | \href{mailto:sudeeppoudel1661@gmail.com}{sudeeppoudel1661@gmail.com} |
-(469) 379-7187 | \href{https://www.linkedin.com/in/sudeep-paudel-4853ab28b/}{linkedin.com/in/sudeep-paudel} \href{https://github.com/spaude11}{Github-spaude11} 
+(469) 379-7187 | \href{https://www.linkedin.com/in/sudeep-paudel-4853ab28b/}{linkedin.com/in/sudeep-paudel} \href{https://github.com/spaude11}{Github-spaude11}
 \end{center}
 
 %------------------------
 
-% Education Section
 \section*{EDUCATION}
 
 \noindent
-\newline
-\textbf{Masters in Computer Science} \\
-Year of completion: 2025 \\ 
-Louisiana State University \\ 
-Computer Science \\
-Major: Computer Science and  Bio-Medical Informatics \\
-
-\noindent
-\textbf{Bachelors in Information Technology} \\
-Year of completion: 2020 \\ 
-Southern Cross University \\ 
-Information Technology \\
-Major: Software Development \\
+\begin{tabular}{@{}p{0.45\textwidth} p{0.45\textwidth}@{}}
+\textbf{Masters in Computer Science} & \textbf{Bachelors in Information Technology} \\
+Year of completion: 2025 & Year of completion: 2020 \\
+Louisiana State University & Southern Cross University \\
+Computer Science & Information Technology \\
+Major: Computer Science and Bio-Medical Informatics & Major: Software Development \\
+\end{tabular}
 
 \noindent
 \textbf{Diploma in Business} \\
-Year of completion: 2017 \\ 
-Southern Cross University \\ 
-Business   \\ 
+Year of completion: 2017 \\
+Southern Cross University \\
+Business
 
 %------------------------
 % Project Section
-\section*{Projects}
+\section*{PROJECTS}
+
 \noindent
-\newline
 \textbf{School Projects} \\
-Louisiana State University \\ 
+Louisiana State University \\
 Department of Computer Science \\
-\begin{table}[h]
-\centering
 \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
 \hline
 \textbf{Highlighted Projects} & \\
 \hline
 \textbf{Developing eLearning Tool:} & Developing an eLearning platform for Louisiana State University Health Shreveport \\
 \hline
-\textbf{Health2U:} & Created c# based project to manage your Health and Fitness Routine \\
+\textbf{Health2U:} & Created C\# based project to manage your Health and Fitness Routine \\
 \hline
 \textbf{Retail Analysis:} & Created machine learning model for visualizing and Predicting Customer Purchase on Kaggle Retail dataset \\
 \hline
-\hline
-\textbf{Pneumonia Detection:} & Created hybrid CNN&AGG based deep learning model for classifying Pneumonia Images \\
-\hline
+\textbf{Pneumonia Detection:} & Created hybrid CNN, AGG based deep learning model for classifying Pneumonia Images \\
 \hline
 \textbf{Aquatic RIG:} & Created Streamlit based .nc files visualization website for spatial data. \\
 \hline
 \end{tabular}
-\end{table}
-
 
 %----------------------------------------------------
 % Employment Section
 \section*{EMPLOYMENT}
+
 \noindent
-\newline
 \textbf{Research Assistant} \\
 Year-Year: 2023-Current \\
-Louisiana State University \\ 
+Louisiana State University \\
 Department of Computer Science \\
-\begin{table}[h]
-\centering
 \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
 \hline
 \textbf{Professional Experience} & \\
@@ -110,14 +95,11 @@ Department of Computer Science \\
 \textbf{Presentation:} & Posters and conference presentation assistant \\
 \hline
 \end{tabular}
-\end{table}
-
+\vspace{\baselineskip}
 \noindent
 \textbf{Job Ready Program} \\
 Year-Year: 2021-2022 \\
-PFEC \\ 
-\begin{table}[h]
-\centering
+PFEC \\
 \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
 \hline
 \textbf{Professional Development} & \\
@@ -127,14 +109,11 @@ PFEC \\
 \textbf{Communication Skills:} & Professional Communication Skills for Workplace Communication \\
 \hline
 \end{tabular}
-\end{table}
-
+\vspace{\baselineskip}
+\noindent
 \textbf{Team Supervisor} \\
 Year-Year: 2019-2023 \\
-WoolWorths \\ 
-
-\begin{table}[h]
-\centering
+WoolWorths \\
 \begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
 \hline
 \textbf{Online} & \\
@@ -144,34 +123,28 @@ WoolWorths \\
 \textbf{Supervision:} & Assist manager with everyday tasks and reporting. \\
 \hline
 \end{tabular}
-\end{table}
-
 
 %------------------------
 
-% Publications Section
 \section*{PUBLICATIONS}
 
-\textbf{Utilizing Social Determinants in Obstetrics and Gynecology Virtual Cases to Enhance Clinical Reasoning: A Collaborative Initiative } \\ \newline
-The article endeavor aims to address crucial facets of medical education, cultivating awareness, and empowering future healthcare professionals to address and mitigate health disparities within obstetrics and gynecology. 
+\textbf{Utilizing Social Determinants in Obstetrics and Gynecology Virtual Cases to Enhance Clinical Reasoning: A Collaborative Initiative} \\
+The article endeavor aims to address crucial facets of medical education, cultivating awareness, and empowering future healthcare professionals to address and mitigate health disparities within obstetrics and gynecology.
 
-\subsection*{Unleashing the Potential: Blockchain Technology Revolutionizing Genomics}
-\textbf{Review Article} \\ 
+\subsection*{} 
+\textbf{Review Article: Unleashing the Potential: Blockchain Technology Revolutionizing Genomics} \\
 The article summarizes the major findings of the review, proposes future research directions, and concludes with the potential of blockchain to revolutionize genomic data management and research practices.
 
 %------------------------
 
 % Awards and Honors Section
-\section*{Scholarship}
+\section*{SCHOLARSHIP}
 
 \noindent
-\newline
 \textbf{Athletic Scholarship} \\
 Year: 2023 \\
 LSUS \\
-12,000  \\
-\documentclass{article}
-
+12,000
 
 % Professional Skills Section
 \section*{PROFESSIONAL SKILLS}
@@ -205,4 +178,3 @@ qingsong.zhao@lsus.edu & urska.cvek@lsus.edu \\
 \end{tabular}
 
 \end{document}
-
